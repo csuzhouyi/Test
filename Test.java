@@ -1,4 +1,6 @@
-private string WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=d2d22ad140485e7049498d6062ff9d807b0cfe31233d5a74994e0fae7e64dcf7";  
+
+public class Test{
+    private string WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=d2d22ad140485e7049498d6062ff9d807b0cfe31233d5a74994e0fae7e64dcf7";  
   
        private void buttonTest_Click(object sender, EventArgs e)  
        {  
@@ -61,3 +63,4 @@ private string WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=d2d
            string resultJson = reader.ReadToEnd();  
            return resultJson;  
        }  
+}
